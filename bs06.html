@@ -22,8 +22,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div class="container">
-        <a class="navbar-brand" href="#"
-          ><i class="fa-solid fa-blog"></i> Minu blogi</a
+        <a class="navbar-brand" href="#"><i class="fa-solid fa-blog"></i> Minu blogi</a
         >
         <button
           class="navbar-toggler"
@@ -66,6 +65,14 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
+
+          <nav aria-label="breadcrumb" class="bg-body-tertiary p-2 pb-1 my-4">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Library</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Data</li>
+            </ol>
+          </nav>
           <h1>Sinu postitus</h1>
           <p>Autor:<a class="link-underline-light" href="#">Reio Viikmaa</a></p>
           <small>
@@ -80,7 +87,40 @@
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius blanditiis enim delectus quidem quod tenetur, exercitationem quibusdam cumque amet debitis vitae. Vero vel quasi minima eligendi at nesciunt. Laboriosam, illum!</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius blanditiis enim delectus quidem quod tenetur, exercitationem quibusdam cumque amet debitis vitae. Vero vel quasi minima eligendi at nesciunt. Laboriosam, illum!</p>
         </div>
-        <div class="col-sm-4"></div>
+        
+        <div class="col-sm-4">
+
+          <div class="card my-4">
+          <div class="card-header">Kategooriad
+
+          </div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-6">
+                <ul class="list-unstyled">
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6">
+                <ul class="list-unstyled">
+                  <li><a href="#">JavaScript</a></li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">MySQL</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card my-4">
+            <h5 class="card-header">Muu info</h5>
+            <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magni excepturi doloremque esse consequatur ipsam animi. Aut ea accusamus veritatis, consequatur voluptate, quidem quas ratione aspernatur autem corrupti eum placeat.</p>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
       </div>
     </div>
   </body>
