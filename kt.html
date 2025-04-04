@@ -1,62 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="et">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogi leht</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"> Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pr</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              
-        
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
+    <div class="container">
+    <!-- Navigeerimisriba -->
+    <nav
+      class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between border-bottom"
+    >
+      <ul class="nav col-13 ">
+        <li><a href="#" class="nav-link Active col px-3">Home</a></li>
+        <li><a href="#" class="nav-link px-1">Features</a></li>
+        <li><a href="#" class="nav-link px-1">Pricing</a></li>
+        <li><a href="#" class="nav-link px-1">About</a></li>
+      </ul>
+
+      <div class="mx-auto text-center">
+        <a class="navbar-brand" href="#">
+          <p class="text-info">Logo</p>
+        </a>
+      </div>
+      <div class="col-md-2 text-end">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-solid fa-peace"></i>
+        </i>
       </div>
     </nav>
+  </div>
+    <!-- Suur päisepilt -->
+    <header
+      class="jumbotron text-white text-center"
+      style="
+        background: url('https://picsum.photos/id/1000/1500/750') center/cover;
+        height: 400px;
+      "
+    >
+    
+      <h1>Nice Heading Goes Here</h1>
+      <p>Bootstrap 4 template sub-heading</p>
+    </header>
+    <!-- Blogi sisu -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-sm-3">
+          <p>December 11th by Bootstraptor</p>
+        </div>
+        <div class="col-sm-9">
+        <h2>Header title Blog Page</h2>
+          <h3 class="fs-bold">+ 5 Free Bootstrap Responsive Blog Post Templates</h3>
+        
+        <i class="fa-solid fa-heart text-danger "> 205 likes</i>
+        <i class="fa-solid fa-share">169 shares</i>
+      </div>
+      </div>
+
+      
+      <div class="container py-5">
+      <div class="container py-5">
+      <img
+        src="https://picsum.photos/id/99/1700/750"
+        class="img-fluid"
+        alt="Placeholder"
+      />
+     <div class="row">
+      <div class="col-sm-3 " ></div>
+      <div class="col-sm-9 py-5">
+        <p class="text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ratione debitis eius eos quibusdam voluptatem, recusandae mollitia aliquid, quas, illum quasi tempora voluptatum. Qui velit ducimus consequatur expedita nam iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ratione debitis eius eos quibusdam voluptatem, recusandae mollitia aliquid, quas.</p>
+
+        <p class="text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis impedit laborum quibusdam eum tempore commodi velit illum nulla, cumque amet aperiam aspernatur sed consequuntur cupiditate quo repellendus nobis quae voluptatibus. Qui velit ducimus consequatur expedita nam iste.Lorem ipsum dolor sit amet.</p>
+      </div>
+     </div>
+     <img
+     src="https://picsum.photos/id/1010/1700/750"
+     class="img-fluid"
+     alt="Placeholder"
+   />
+  <div class="row">
+   <div class="col-sm-3" ></div>
+   <div class="col-sm-9 py-4">
+     <p class="text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ratione debitis eius eos quibusdam voluptatem, recusandae mollitia aliquid, quas, illum quasi tempora voluptatum. Qui velit ducimus consequatur expedita nam iste.Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse ratione debitis eius eos quibusdam voluptatem, recusandae mollitia aliquid, quas.</p>
+
+     <p class="text-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis impedit laborum quibusdam eum tempore commodi velit illum nulla, cumque amet aperiam aspernatur sed consequuntur cupiditate quo repellendus nobis quae voluptatibus. Qui velit ducimus consequatur expedita nam iste.Lorem ipsum dolor sit amet.</p>
+   </div>
+  </div>
+</div>
+</div>
+        
+
+    <!-- Lisasektsioonid -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-md-6">
+          <p class="text-body-tertiary">SHOW YOUR WORK</p>
+          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+        </div>
+        <div class="col">
+          <!-- This column can be empty or used for other content -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente veritatis, recusandae illum quisquam, sequi quasi error unde harum laboriosam veniam tenetur quod quidem consequuntur aspernatur tempora labore sed, repellendus distinctio. Sapiente veritatis, recusandae illum quisquam, sequi quasi error unde harum laboriosam veniam tenetur quod quidem consequuntur aspernatur tempora labore sed, repellendus distinctio.</p>
+        </div>
+        <div class="col-md-5 text-end mt-0 ">
+          <h2>Where can I get some?</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In numquam quaerat eos dolores sit nulla, exercitationem voluptatibus eius adipisci voluptates necessitatibus praesentium odio eum ut nemo, architecto repellendus maiores magnam.</p>
+          <hr>
+          <h2>Why do we use it</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptates non hic aliquid perferendis ab ea, distinctio doloremque modi ducimus aperiam id. Modi maxime quae sed dignissimos vitae sunt iste?</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Jalus -->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
