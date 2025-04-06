@@ -18,47 +18,50 @@
   </head>
   <body>
     <div class="container">
-    <!-- Navigeerimisriba -->
+    <!-- Navbar-->
     <nav
       class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between border-bottom"
     >
       <ul class="nav col-13 ">
-        <li><a href="#" class="nav-link Active col px-3">Home</a></li>
-        <li><a href="#" class="nav-link px-1">Features</a></li>
-        <li><a href="#" class="nav-link px-1">Pricing</a></li>
-        <li><a href="#" class="nav-link px-1">About</a></li>
+        <li><a href="#" class="nav-link Active text-dark col px-3">Home</a></li>
+        <li><a href="#" class="nav-link text-dark px-1">Features</a></li>
+        <li><a href="#" class="nav-link text-dark px-1">Pricing</a></li>
+        <li><a href="#" class="nav-link text-dark px-1">About</a></li>
       </ul>
 
       <div class="mx-auto text-center">
         <a class="navbar-brand" href="#">
-          <p class="text-info">Logo</p>
+          <p class="text-info text-dark">Logo</p>
         </a>
       </div>
-      <div class="col-md-2 text-end">
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-solid fa-peace"></i>
+      <div class="col-md-2 text-end text-secondary">
+        <i class="fa-brands fa-twitter col-sm-2"></i>
+        <i class="fa-brands fa-github col-sm-2"></i>
+        <i class="fa-solid fa-peace col-sm-3"></i>
         </i>
       </div>
     </nav>
   </div>
-    <!-- Suur päisepilt -->
-    <header
-      class="jumbotron text-white text-center"
-      style="
-        background: url('https://picsum.photos/id/1000/1500/750') center/cover;
-        height: 400px;
-      "
-    >
-    
-      <h1>Nice Heading Goes Here</h1>
-      <p>Bootstrap 4 template sub-heading</p>
+<!-- Päisepilt -->
+<header
+  class="jumbotron text-white text-center d-flex align-items-center justify-content-center"
+  style="
+    background: url('https://picsum.photos/id/867/1500/750') center/cover;
+    height: 500px;
+  "
+>
+  <div>
+    <h1 class="display-4">Nice Heading Goes Here</h1>
+    <p class="lead">Bootstrap 4 template sub-heading</p>
+  </div>
+</header>
+
     </header>
     <!-- Blogi sisu -->
     <div class="container my-5">
       <div class="row">
-        <div class="col-sm-3">
-          <p>December 11th by Bootstraptor</p>
+        <div class="col-sm-2">
+          <p class="col-sm-7">December 11th by <b>Bootstraptor</b></p>
         </div>
         <div class="col-sm-9">
         <h2>Header title Blog Page</h2>
@@ -101,33 +104,60 @@
 </div>
 </div>
         
-
-    <!-- Lisasektsioonid -->
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-md-6">
-          <p class="text-body-tertiary">SHOW YOUR WORK</p>
-          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-        </div>
-        <div class="col">
-          <!-- This column can be empty or used for other content -->
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente veritatis, recusandae illum quisquam, sequi quasi error unde harum laboriosam veniam tenetur quod quidem consequuntur aspernatur tempora labore sed, repellendus distinctio. Sapiente veritatis, recusandae illum quisquam, sequi quasi error unde harum laboriosam veniam tenetur quod quidem consequuntur aspernatur tempora labore sed, repellendus distinctio.</p>
-        </div>
-        <div class="col-md-5 text-end mt-0 ">
-          <h2>Where can I get some?</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In numquam quaerat eos dolores sit nulla, exercitationem voluptatibus eius adipisci voluptates necessitatibus praesentium odio eum ut nemo, architecto repellendus maiores magnam.</p>
-          <hr>
-          <h2>Why do we use it</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptates non hic aliquid perferendis ab ea, distinctio doloremque modi ducimus aperiam id. Modi maxime quae sed dignissimos vitae sunt iste?</p>
-        </div>
-      </div>
+<div class="container my-4">
+  <div class="row">
+    <!-- Vasak-->
+    <div class="col-md-6">
+      <p class="text-body-tertiary">SHOW YOUR WORK</p>
+      <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente veritatis, recusandae illum quisquam, sequi quasi error unde harum laboriosam veniam tenetur quod quidem consequuntur aspernatur tempora labore sed, repellendus distinctio. Sapiente veritatis, recusandae illum quisquam, sequi quasi error unde harum laboriosam veniam tenetur quod quidem consequuntur aspernatur tempora labore sed, repellendus distinctio.</p>
     </div>
-    
-    <!-- Jalus -->
+
+    <!-- Parem -->
+    <div class="col-md-6 pe-md-4">
+      <h2>Where can I get some?</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In numquam quaerat eos dolores sit nulla, exercitationem voluptatibus eius adipisci voluptates necessitatibus praesentium odio eum ut nemo, architecto repellendus maiores magnam.</p>
+      <hr>
+      <h2>Why do we use it</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit voluptates non hic aliquid perferendis ab ea, distinctio doloremque modi ducimus aperiam id. Modi maxime quae sed dignissimos vitae sunt iste?</p>
+    </div>
+  </div>
+</div>
+<div class="text-center col-md-10 container" style="margin-top: 100px;">
+  <p class="text-center">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet
+    vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.
+    Aenean sit amet felis dolor, in sagittis nisi. Sed ac orci quis tortor imperdiet venenatis.
+    Duis elementum auctor accumsan.
+  </p>
+</div>
+
+<!-- Centered Image -->
+<div class="text-center">
+  <img
+  src="https://picsum.photos/id/1010/1700/750"
+  class="img-fluid"
+  alt="Placeholder"
+/>
+</div>
+
+<!-- Paragraph Under the Image -->
+<div class="text-center col-md-10 my-4 container">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, molestiae. Hic exercitationem est, laboriosam fugit nemo unde quam, facilis doloribus modi similique dolorum. Itaque dignissimos laboriosam accusantium ipsa, veritatis molestias. Itaque dignissimos laboriosam accusantium ipsa, veritatis molestias, ipsa, auto, ahv, kaalikas, saabas, toss, ants, pets.
+  </p>
+</div>
+<div class="text-center col-md-10 my-5 container">
+      <h1>Lorem Ipsum is simply dummy text of the printing</h1>
+      </div>
+      <div class="text-center container mb-5" style="max-width: 700px;">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga optio distinctio est laudantium minima. Placeat blanditiis, libero suscipit rerum, ab tempore sed assumenda labore ipsum illum, odio laboriosam soluta accusamus? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga optio distinctio est laudantium minima. Placeat blanditiis, libero suscipit rerum, ab tempore sed assumenda labore ipsum illum, odio laboriosam soluta accusamus?
+     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga optio distinctio est laudantium minima. Placeat blanditiis, libero suscipit rerum, ab tempore sed assumenda labore ipsum illum, odio?</p>
+  <div class="text-center container mb-2" style="max-width: 700px;">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis esse veniam adipisci consectetur libero explicabo possimus, itaque cupiditate quod quae dignissimos voluptates, non officiis porro! Fuga autem perspiciatis eius! Mollitia?</p>
+  </div>
+    </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
